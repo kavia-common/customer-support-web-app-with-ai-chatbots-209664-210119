@@ -1,0 +1,39 @@
+{
+  "name": "customer-support-web-app-with-ai-chatbots",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "ng serve --host 0.0.0.0 --port 4200",
+    "build": "ng build",
+    "build:prod": "ng build --configuration production",
+    "test": "ng test --watch=false",
+    "lint": "echo \"No lint configured\""
+  },
+  "dependencies": {
+    "@angular/animations": "19.2.1",
+    "@angular/common": "19.2.1",
+    "@angular/compiler": "19.2.1",
+    "@angular/core": "19.2.1",
+    "@angular/forms": "19.2.1",
+    "@angular/platform-browser": "19.2.1",
+    "@angular/platform-browser-dynamic": "19.2.1",
+    "@angular/router": "19.2.1",
+    "rxjs": "7.8.1",
+    "tslib": "2.6.3",
+    "zone.js": "0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "19.2.1",
+    "@angular/cli": "19.2.1",
+    "@angular/compiler-cli": "19.2.1",
+    "@types/jasmine": "5.1.4",
+    "jasmine-core": "5.1.2",
+    "karma": "6.4.3",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-coverage": "2.2.1",
+    "karma-jasmine": "5.1.0",
+    "karma-jasmine-html-reporter": "2.1.0",
+    "typescript": "5.4.5"
+  }
+}
